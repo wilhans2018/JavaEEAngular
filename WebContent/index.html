@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" ng-app>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="imagens/favicon.png">
+
+    <title>Videoaulas prof Neri Neitzke</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/carousel.css" rel="stylesheet">
+    <script src="js/angular.min.js"></script>
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div ng-include  src="'menus.html'"></div>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="imagens/google.png" alt="Visita do neri ao Google">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Visita Neri ao Google</h1>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="second-slide" src="imagens/casastevejobs.JPG" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Na casa do Steve Jobs</h1>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" src="imagens/stanford.JPG" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Universidade Stanford</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="imagens/palestras.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>198 palestras em 8 países</h2>
+          <p>Palestrando em todo o Brasil e em vários países, já ministrou 198 palestras em 8 países (Estados Unidos, Portugal, Guiné-Bissau, Angola, Colômbia, Cabo Verde e Moçambique).</p>
+         </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="imagens/videoaulas.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Videoaulas</h2>
+          <p>Até agora o prof Neri criou 6.978 videoaulas, 60 cursos, equivalente a 26 livros, estão com mais de 13 milhões de acessos no www.youtube.com/nerineitzke.</p>
+         </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="imagens/neri.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Conheça o Neri</h2>
+          <p>Neri Aldoir Neitzke, possui graduação em processamento de dados pela Universidade de Passo Fundo (2001) e especialização em Desenvolvimento de Softwares para web.</p>
+         </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+     
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; Videoaulas prof Neri Neitzke. &middot; <a href="#">Maior autor de videoaulas do mundo</a> &middot; <a href="#">Nerizon</a></p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
